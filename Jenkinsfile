@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
         stage('Git') {
-            steps { git 'https://github.com/pandian3k/vasu.git' }
+            steps { git 'https://github.com/vijayanbu/vasu.git' }
         }
 	stage('Build') {
 	            steps { sh label: '', script: 'mvn clean'
