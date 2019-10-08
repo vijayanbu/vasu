@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>srinath  kaila rakai ya kannum!</h2>
+<h2>Vanakam Gurunatha.....</h2>
 </body>
 </html>
