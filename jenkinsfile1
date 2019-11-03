@@ -1,0 +1,19 @@
+pipeline{
+agent any
+stages{
+stage ('scm')
+{
+steps{
+git 'https://github.com/vijayanbu/vasu.git'
+}
+}
+stage ('build')
+{
+
+steps{
+sh label: '', script: 'mvn clean '
+ sh label: '', script: 'mvn install '
+}
+}
+}
+}
